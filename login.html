@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="widith=device-widith, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Registro - E.E.S.O. 521</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/registro.css" /> 
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900,500,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="contenedor-formulario">
+		<div class="wrap">
+			<div class="header">
+				<img src="imagenes/Imagen2.png" class="logo"/>
+				<h1>Ingreso de usuarios</h1>
+				<a href="registro.html"><button class="btn-submit">Si no estás registrado, haz <strong>clic aquí</strong></button></a>
+			</div>
+			<form action="verificar.php" class="formulario" name="formulario_registro" method="post">
+				<div>
+					<div class="input-group">
+						<input type="text" id="USER" name="USER"></input>
+						<label class="label" for="USER">Nombre de usuario:</label>
+					</div>
+					<div class="input-group">
+						<input type="password" id="PW" name="PW"></input>
+						<label class="label" for="PW">Contraseña:</label>
+					</div>
+					<input type="submit" id="btn-submit" value="Iniciar sesión"></input>
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer>Juan Blas Tschopp - JBT Producciones (03404) 498261</footer>
+	<script src="javascript/registro.js"></script>
+</body>
+</html>

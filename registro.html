@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="widith=device-widith, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Registro - E.E.S.O. 521</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/registro.css" /> 
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900,500,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="contenedor-formulario">
+		<div class="wrap">
+			<div class="header">
+				<img src="imagenes/Imagen2.png" class="logo"/>
+				<h1>Registro de usuarios</h1>
+			</div>
+			<form action="registrar_c.php" class="formulario" name="formulario_registro" method="post">
+				<div>
+					<div class="input-group">
+						<input type="text" id="NOMBRE" name="NOMBRE"></input>
+						<label class="label" for="NOMBRE">Nombre y apellido:</label>
+					</div>
+					<div class="input-group">
+						<input type="email" id="EMAIL" name="EMAIL"></input>
+						<label class="label" for="EMAIL">E-mail:</label>
+					</div>
+					<div class="input-group">
+						<input type="text" id="DNI" name="DNI" maxlength="8"></input>
+						<label class="label" for="DNI">DNI:</label>
+					</div>
+					<div class="input-group">
+						<input type="text" id="USER" name="USER"></input>
+						<label class="label" for="USER">Nombre de usuario:</label>
+					</div>
+					<div class="input-group">
+						<input type="password" id="PW" name="PW"></input>
+						<label class="label" for="PW">Contraseña:</label>
+					</div>
+					<div class="input-group">
+						<input type="password" id="PW2" name="PW2"></input>
+						<label class="label" for="PW2">Confirmar contraseña:</label>
+					</div>
+					<div class="input-group">
+						<select id="CURSO" name="CURSO">
+							<option>Selecciona tu curso</option>
+							<option value="1°">1°</option>
+							<option value="2°">2°</option>
+							<option value="3°">3°</option>
+							<option value="4°">4°</option>
+							<option value="5°">5°</option>
+							<option value="final">Cursado Finalizado</option>
+						</select>
+					</div>
+					<input type="submit" id="btn-submit" value="Registrarse"></input>
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer>Juan Blas Tschopp - JBT Producciones (03404) 498261</footer>
+	<script src="javascript/registro.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?mn25ym');
+    src:    url('fonts/icomoon.eot?mn25ym#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?mn25ym') format('truetype'),
+        url('fonts/icomoon.woff?mn25ym') format('woff'),
+        url('fonts/icomoon.svg?mn25ym#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-left:before {
+    content: "\e900";
+}
+.icon-chevron-right:before {
+    content: "\e901";
+}
+.icon-dots-three-horizontal:before {
+    content: "\e902";
+}
+.icon-home:before {
+    content: "\e903";
+}
+.icon-pie-chart:before {
+    content: "\e904";
+}
+.icon-pin:before {
+    content: "\e905";
+}
+.icon-popup:before {
+    content: "\e906";
+}
+.icon-reply-all:before {
+    content: "\e907";
+}
+.icon-reply:before {
+    content: "\e908";
+}
+.icon-text:before {
+    content: "\e909";
+}
+.icon-user:before {
+    content: "\e90a";
+}
+.icon-users:before {
+    content: "\e90b";
+}
+.icon-google-drive:before {
+    content: "\e90c";
+}
+.icon-facebook:before {
+    content: "\e90d";
+}
+.icon-youtube:before {
+    content: "\e90e";
+}
+
