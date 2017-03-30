@@ -1,8 +1,8 @@
-# Web config
+﻿# Web config
 url: "http://eeso521.github.io/eeso521"
 baseurl: "/eeso521"
 # Nombre de la página
-title: Escuela de Enseñanza Secundaria Orientada N°521
+title: E.E.S.O. N°521
 # Descripción
 description: Escuela Secundaria en López, Santa Fe
 # Navbar config
